@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Right Click Ipsum",
+  "version": "0.1",
+
+  "description": "Inserts lorem ipsum into an input field when selected from the context menu.",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "menus",
+    "activeTab"
+  ]
+
+}
